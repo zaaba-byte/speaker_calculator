@@ -1,0 +1,29 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Logs
+*.log
+
+# Geany editor backup/swap files
+*.geany
+*.swp
+*.swo
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled objects
+*.o
+*.so
+
+# Temporary files
+*.tmp
+*.temp
