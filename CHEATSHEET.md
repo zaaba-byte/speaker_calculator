@@ -29,3 +29,25 @@ git push -u origin main
 
 # 9. Check status anytime
 git status
+
+
+# Speaker Calculator Cheat Sheet
+
+## Navigate
+cd ~/projects/speaker_calculator
+
+## Dependencies (Termux pkg preferred)
+pkg install python-numpy python-scipy python-matplotlib
+
+# OR (pip fallback if pkg fails)
+pip install numpy==1.26.4 scipy==1.13.1 matplotlib==3.9.2
+
+## Run main calculator
+python3 enclosure_calculator.py
+
+## Run cut sheet tool
+python3 round_cut_sheet.py
+
+## Optional aliases (add to ~/.bashrc)
+alias calc='cd ~/projects/speaker_calculator && python3 enclosure_calculator.py'
+alias cut='cd ~/projects/speaker_calculator && python3 round_cut_sheet.py'
